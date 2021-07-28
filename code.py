@@ -39,7 +39,7 @@ secondstdDevStart, secondstdDevEnd = mean - (2*stdDev), mean + (2*stdDev)
 
 thirdstdDevStart, thirdstdDevEnd = mean - (3*stdDev), mean + (3*stdDev)
 
-df = pd.read_csv("data.csv")
+df = pd.read_csv("class111/medium_data.csv")
 data = df["id"].to_list()
 
 meanOfSample = statistics.mean(data)
